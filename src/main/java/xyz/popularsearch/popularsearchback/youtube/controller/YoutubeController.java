@@ -1,13 +1,10 @@
 package xyz.popularsearch.popularsearchback.youtube.controller;
 
 import lombok.RequiredArgsConstructor;
-import org.springframework.core.ResolvableType;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import xyz.popularsearch.popularsearchback.youtube.dto.YoutubeDto;
 import xyz.popularsearch.popularsearchback.youtube.service.YoutubeService;
 
 import java.util.List;
